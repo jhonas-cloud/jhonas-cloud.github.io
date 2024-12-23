@@ -12,6 +12,6 @@ copyright = "&copy; 2024 All Rights Reserved."
   headline = "AWS Certified Cloud Practitioner | Into ☁️ "
    links = [
      { email = "mailto:mr.jhonas.cloud@gmail.com" },
-     { github = "https://github.com/realcupy" },
+     { github = "https://github.com/jhonas-cloud" },
      { linkedin = "https://www.linkedin.com/in/jhonascabañero" },
    ]
