@@ -7,9 +7,9 @@ title = "Portfolio"
 copyright = "&copy; 2024 All Rights Reserved."
 
 [params.author]
-  name = "Hello! I'm Jhonas"
+  name = "Jhonas Cabañero"
   image = "img/image.png"
-  headline = "AWS Certified Cloud Practitioner | Into ☁️ "
+  headline = "AWS Certified Cloud Practitioner | Degree Holder (Information Technology) | Into ☁️ | Loves to build computer 🖥️"
    links = [
      { email = "mailto:mr.jhonas.cloud@gmail.com" },
      { github = "https://github.com/jhonas-cloud" },
