@@ -1,0 +1,17 @@
+languageCode = "en"
+languageName = "English"
+languageDirection = "ltr"
+weight = 1
+
+title = "Portfolio"
+copyright = "&copy; 2024 All Rights Reserved."
+
+[params.author]
+  name = "Hello! I'm Jhonas"
+  image = "img/image.png"
+  headline = "AWS Certified Cloud Practitioner | Into ☁️ "
+   links = [
+     { email = "mailto:mr.jhonas.cloud@gmail.com" },
+     { github = "https://github.com/realcupy" },
+     { linkedin = "https://www.linkedin.com/in/jhonascabañero" },
+   ]
