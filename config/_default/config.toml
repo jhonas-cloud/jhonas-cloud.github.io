@@ -11,5 +11,8 @@ summaryLength = 0
 [pagination]
   pagerSize = 10
 
+[params]
+  favicon = "static/favicon.ico"
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
