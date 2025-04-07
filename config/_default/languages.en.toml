@@ -3,7 +3,7 @@ languageName = "English"
 languageDirection = "ltr"
 weight = 1
 
-title = "Portfolio"
+title = "My Portfolio"
 copyright = "&copy; 2025 All Rights Reserved."
 
 [params.author]
