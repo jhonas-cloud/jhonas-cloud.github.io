@@ -2,7 +2,6 @@
     h-full
   {{ end }}">
   <header class="flex flex-col items-center mb-3">
-    <link rel="icon" href="{{ "favicon.ico" | relURL }}" type="image/x-icon">
     {{ with .Site.Params.Author.image }}
     {{ $authorImage := resources.Get . }}
     {{ if $authorImage }}
