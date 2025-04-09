@@ -1,7 +1,8 @@
 ---
+layout: page
 title: "My Cloud Practitioner Journey"
 date: 2025-01-09
-thumbnail: "badge1.jpeg"
+thumbnail: "images/badge1.jpeg"
 showAuthor: true
 showDate: true
 showSummary: true
@@ -18,10 +19,13 @@ summary: "This blog says that if I can pass it, you can too!."
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Before the day of exam, I do more Practice exam and I passed it!. <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here’s the domain that needs to pass:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here’s the domain that needs to pass:<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Domain 1: Cloud Concepts 24% <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Domain 2: Security and Compliance 30%<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Domain 3: Cloud Technology and Services 34%<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Domain 4: Billing, Pricing, and Support 12%<br>
-
-Next Certification is Solutions Architect Associate -> Terraform Associate.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;!["Cert"](images/image.png)
+AWS Certified Cloud Practitioner - Certification
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;!["Cert"](images/image1.png)
+AWS Certified Cloud Practitioner Exam Result <br><br>
+Next Certification is Solutions Architect -  Associate -> Terraform Associate.
