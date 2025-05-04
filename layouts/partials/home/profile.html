@@ -11,26 +11,68 @@
     {{ end }}
     {{ end }}
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
     <h1 class="text-4xl font-extrabold">
         {{ .Site.Params.Author.name | default .Site.Title }}
     </h1>
     
-    <p class="multipleStrings">
-      {{  .Site.Params.Author.headline | default .Site.Title }}
-    </p>
-    <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+    <label class="typing-label">
+      I'm currently studying <span class="multipleStrings">
+      </span> 
+    </label>
+    
+    <script src="https://unpkg.com/typeit@8.8.6/dist/index.umd.js"></script>
     <script>
       new TypeIt(".multipleStrings", {
-        breakLines: false,
-        lifelike: true,
+        breakLines: true,
+        lifelike: false,
         loop: true,
         startDelay: 750,
-        speed: 120,
-        afterComplete: function (instance) {
-          instance.destroy();
-        }
-      }).go();
+        speed: 130,
+        waitUntilVisible: true,
+        cursor: true,
+        cursorChar:"_",
+        
+      })
+      .type("Cloud Computing ☁️.")
+      .pause(1000)
+      .delete(30)
+      .type("Amazon Web Services.")
+      .pause(1000)
+      .delete(25)
+      .type("DevOps Principles.")
+      .pause(1000)
+      .delete(25)
+      .type("Containerization 🐳.")
+      .pause(1300)
+      .delete(25)
+      .type("Infrastructure as Code.")
+      .pause(1400)
+      .delete(30)
+      .type("Linux.")
+      .pause(1000)
+      .delete(25)
+      .go();
     </script>
+  
+    <style>
+      :root{
+        --ti-cursor-color: white;
+      }
+      
+      .typing-label {
+        font-family: "Nunito Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 25px;
+        font-weight: 800;
+        font-style: normal;
+      }
+      
+
+      
+    </style>
   
     <h2 class="text-xl text-neutral-500 dark:text-neutral-400">
       {{ with . | markdownify | emojify }}

@@ -9,7 +9,6 @@ copyright = "&copy; 2025 All Rights Reserved."
 [params.author]
   name = "Jhonas Cabañero"
   image = "img/image.png"
-  headline = "AWS Certified Cloud Practitioner | Degree Holder (Information Technology) | Into ☁️ | Loves to build computer 🖥️"
    links = [
      { email = "mailto:mr.jhonas.cloud@gmail.com" },
      { github = "https://github.com/jhonas-cloud" },
